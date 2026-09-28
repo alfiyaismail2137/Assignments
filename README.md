@@ -14,23 +14,23 @@ Assignment 1 : Data Exploration
 ## 2. Min and Max:
 
 *. Determine the minimum price among all products.  
-        <br>The minimum price among all products are calculated by using MIN().The MIN function extracts the lowest or smallest value from a range of cells or cell references.Used syntax is =MIN(D2:D35).The output is 30. 
+        <br>  The minimum price among all products are calculated by using MIN().The MIN function extracts the lowest or smallest value from a range of cells or cell references.Used syntax is =MIN(D2:D35).The output is 30. 
 
 *. Find the maximum price among all products.  
-       <br>The  maximum price among all products are calculated by using MAX().The MAX function Returns the largest value from a range of cells. Used syntax is =MAX(D2:D35).The maximum price is 1000.
+       <br>  The  maximum price among all products are calculated by using MAX().The MAX function Returns the largest value from a range of cells. Used syntax is =MAX(D2:D35).The maximum price is 1000.
      
 ## 3. IF Function:
 
  *. Using an IF function, create a new column named Price Range to categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'.
-        <br>First create a column named price range . By using If function categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'. We used syntax is =IF(D2>=500,"High Price","Standard Price").The Output displayed based on price of product.If you drag it down, the values in the cells below will also update.
+        <br>  First create a column named price range . By using If function categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'. We used syntax is =IF(D2>=500,"High Price","Standard Price").The Output displayed based on price of product.If you drag it down, the values in the cells below will also update.
  
 ## 4. SUMIF and COUNTIF:
 
 *.Calculate the total price for products in the 'Electronics' category using the SUMIF function. 
-       <br>The total price of products in electronics can be calculated using SUMIF().Used syntax is =SUMIF(F2:F35,"Electronics",D2:D35).The output is 8050.
+       <br>  The total price of products in electronics can be calculated using SUMIF().Used syntax is =SUMIF(F2:F35,"Electronics",D2:D35).The output is 8050.
      
 *.Determine the count of products with a price less than $100 using the COUNTIF function.
-      <br>The products with a price less than $100 can be calculated using COUNTIF().Used syntax is =COUNTIF(D2:D35,"<100"). The output is 11.
+      <br>  The products with a price less than $100 can be calculated using COUNTIF().Used syntax is =COUNTIF(D2:D35,"<100"). The output is 11.
     
 ## 5. Text Formatting - LEFT, RIGHT, MID:
 
