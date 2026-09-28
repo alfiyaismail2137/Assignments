@@ -13,13 +13,15 @@ Assignment 1 : Data Exploration
 ## 2. Min and Max:
 *. Determine the minimum price among all products.  
 <br>The minimum price among all products are calculated by using MIN().The MIN function extracts the lowest or smallest value from a range of cells or cell references.Used syntax is =MIN(D2:D35).The output is 30. 
+
 *. Find the maximum price among all products.  
 <br>The  maximum price among all products are calculated by using MAX().The MAX function Returns the largest value from a range of cells. Used syntax is =MAX(D2:D35).The maximum price is 1000.
 ## 3. IF Function:
-  Using an IF function, create a new column named Price Range to categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'.
+ *. Using an IF function, create a new column named Price Range to categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'.
+ First create a column named price range . By using If function categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'. We used syntax is =IF(D2>=500,"High Price","Standard Price").The Output displayed based on price of product.If you drag it down, the values in the cells below will also update.
 ## 4. SUMIF and COUNTIF:
-1.Calculate the total price for products in the 'Electronics' category using the SUMIF function.  
-2.Determine the count of products with a price less than $100 using the COUNTIF function.  
+*.Calculate the total price for products in the 'Electronics' category using the SUMIF function.  
+*.Determine the count of products with a price less than $100 using the COUNTIF function.  
 ## Text Formatting - LEFT, RIGHT, MID:
 1.Create a new column named Day with the first 2 characters of each 'Product ID' using the LEFT function.  
 2.Create a new column named Country Code by extracting the last 2 characters from the 'Product ID' column using the RIGHT function.  
