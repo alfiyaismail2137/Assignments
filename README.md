@@ -1,21 +1,23 @@
 # Assignments
 Assignment 1 : Data Exploration
-## Sum, Count, Average:
-   1. What is the total price of all products in the dataset?
+## 1. Sum, Count, Average:
+   *. What is the total price of all products in the dataset?
         <br>The sum of product price  is calculated by using SUM() Function. Used Syntax is =SUM(D2:D35) .Then get output is 10100 .
       
-  2. How many products are there in the dataset?
+  *. How many products are there in the dataset?
        <br>Total number of products are founded using COUNTA() Function. The COUNTA function in Excel counts cells that are not empty. Used syntax is =COUNTA(B2:B35).Then get total number of products is  : 34.
  
-   3. Calculate the average price of the products.
+   *. Calculate the average price of the products?.
         <br>The average Prize of Products are calculated by using AVERAGE() function in excel. It returns the arithmetic mean of a set of numbers. Used syntax is =AVERAGE(D2:D35).Then get output is :297.0588235 .By using Round function we can short the average.=ROUND(D40,1) applied on Average Value , The final output is 297.1.
       
-## Min and Max:
-1. Determine the minimum price among all products.  
-2. Find the maximum price among all products.  
-## IF Function:
+## 2. Min and Max:
+*. Determine the minimum price among all products.  
+<br>The minimum price among all products are calculated by using MIN().The MIN function extracts the lowest or smallest value from a range of cells or cell references.Used syntax is =MIN(D2:D35).The output is 30. 
+*. Find the maximum price among all products.  
+<br>The  maximum price among all products are calculated by using MAX().The MAX function Returns the largest value from a range of cells. Used syntax is =MAX(D2:D35).The maximum price is 1000.
+## 3. IF Function:
   Using an IF function, create a new column named Price Range to categorize products with a price greater than or equal to $500 as 'High Price' and others as 'Standard Price'.
-## SUMIF and COUNTIF:
+## 4. SUMIF and COUNTIF:
 1.Calculate the total price for products in the 'Electronics' category using the SUMIF function.  
 2.Determine the count of products with a price less than $100 using the COUNTIF function.  
 ## Text Formatting - LEFT, RIGHT, MID:
