@@ -1,7 +1,7 @@
 # Assignments
 Assignment 1 : Data Exploration
 ## Sum, Count, Average:
-  1 . What is the total price of all products in the dataset?
+  1 . What is the total price of all products in the dataset?  
    2. How many products are there in the dataset?
    3.Calculate the average price of the products.
 ## Min and Max:
