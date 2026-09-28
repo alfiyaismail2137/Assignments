@@ -1,9 +1,12 @@
 # Assignments
 Assignment 1 : Data Exploration
 ## Sum, Count, Average:
-   1. What is the total price of all products in the dataset?  
-   2. How many products are there in the dataset?  
-   3. Calculate the average price of the products.  
+   1. What is the total price of all products in the dataset?
+      The sum of product price  is calculated by using SUM() Function.Used Syntax is =SUM(D2:D35) . Then get output is 10100 .
+   2. How many products are there in the dataset?
+      Total number of products: 34  =COUNTA(B2:B35)
+   3. Calculate the average price of the products.
+      Average Prize of Products :297.0588235       =AVERAGE(D2:D35)
 ## Min and Max:
 1. Determine the minimum price among all products.  
 2. Find the maximum price among all products.  
