@@ -2,7 +2,7 @@
 Assignment 1 : Data Exploration
 ## Sum, Count, Average:
    1. What is the total price of all products in the dataset?
-        <br>  The sum of product price  is calculated by using SUM() Function. Used Syntax is =SUM(D2:D35) .Then get output is 10100 .
+        <br><br>  The sum of product price  is calculated by using SUM() Function. Used Syntax is =SUM(D2:D35) .Then get output is 10100 .<br>
    2. How many products are there in the dataset?
  <br>  Total number of products are founded using COUNTA() Function. The COUNTA function in Excel counts cells that are not empty. Used syntax is =COUNTA(B2:B35).Then get total number of products is  : 34.
    3. Calculate the average price of the products.
